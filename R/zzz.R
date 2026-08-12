@@ -1,7 +1,7 @@
 .onAttach <- function(libname, pkgname) {
   packageStartupMessage(
-    "Package 'SparseMSE' is deprecated and has been superseded by ",
-    "'MultipleSystemsEstimation'. Please use 'MultipleSystemsEstimation' ",
-    "for current development and support."
+    "Package 'SparseMSE' is deprecated. ",
+    "Please use 'MultipleSystemsEstimation' instead; it includes the functionality ",
+    "of 'SparseMSE' and extends it with additional methods and documentation."
   )
 }

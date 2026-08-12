@@ -4,12 +4,13 @@ Version: 2.0.2
 Authors@R: c(
   person("Lax", "Chan", email = "laxchan77@gmail.com", role = c("aut")),
   person("Bernard W.", "Silverman", email = "bernard.silverman@stats.ox.ac.uk", role = c("aut","cre")),
-  person("Kyle", "Vincent", email = "kyle.shane.vincent@gmail.com", role= c("aut")))
-Description: Provides multiple systems estimation methods for sparse capture data,
-    including cases with non-overlapping lists and boundary estimates. The package
-    is deprecated and has been superseded by 'MultipleSystemsEstimation', which
-    should be used for current development and support. The methods were developed
-    and analysed by Chan, Silverman and Vincent (2019)
+  person("Kyle", "Vincent", email = "kyle.shane.vincent@gmail.com", role = c("aut")))
+Description: Deprecated package. Users should use 'MultipleSystemsEstimation'
+    instead of 'SparseMSE'. 'MultipleSystemsEstimation' includes the functionality
+    of 'SparseMSE' and extends it with additional methods and documentation.
+    'SparseMSE' implements multiple systems estimation methods for sparse capture
+    data, including cases with non-overlapping lists and boundary estimates. The
+    methods were developed and analysed by Chan, Silverman and Vincent (2019)
     <doi:10.48550/arXiv.1902.05156>.
 URL: https://arxiv.org/abs/1902.05156
 Depends: R (>= 3.5.0)
